@@ -1,0 +1,17 @@
+import petools
+
+suspend_input flag
+check each visible object to see if clicked, set variable 'selected_*objecttype*' to that object
+map from unit to tile function, should be in main.py
+range description for moves, should be more than just distance
+generate nature and resources on neutral team
+skill animations on target selection. one at user, one at target. both are optional and only appear if the anim's attr isn't None
+highlight tiles in range of the pending move with solid rectangles
+on comp turn: comp select unit, then from options after they are generated (it cannot click)
+
+Later Considerations:
+    multiplayer over discord
+    how to build
+
+grave files for units
+tkinter chatroom
